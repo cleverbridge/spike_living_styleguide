@@ -1,0 +1,21 @@
+.icon {
+  order: 2;
+  margin-left: 10px;
+  background: #fff;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  border-radius: 2px;
+}
+
+.info {
+  background: orange;
+}
+
+.success  {
+  background: greenyellow;
+}
+
+.error {
+  background: red;
+  font-family: "Comic Sans MS", sans-serif;
+}

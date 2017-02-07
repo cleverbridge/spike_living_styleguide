@@ -1,0 +1,14 @@
+.button {
+  -webkit-appearance: none;
+  border: 2px solid orange;
+  padding: 5px 10px;
+  background: green;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.normal {
+  font-size: 20px;
+}

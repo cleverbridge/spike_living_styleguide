@@ -1,0 +1,22 @@
+@import "../../styles/_defaults.css";
+
+.button {
+  -webkit-appearance: none;
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 5px 10px;
+  background: transparent;
+  font-family: var(--default-font);
+}
+
+.small {
+  font-size: 10px;
+}
+
+.normal {
+  font-size: 16px;
+}
+
+.large {
+  font-size: 24px;
+}

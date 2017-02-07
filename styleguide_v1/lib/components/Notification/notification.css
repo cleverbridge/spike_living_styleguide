@@ -1,0 +1,25 @@
+@import "../../styles/_defaults.css";
+
+.notification {
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  margin: 10px 0;
+  font-family: var(--default-font);
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.info {
+  background: lightblue;
+}
+
+.success  {
+  background: lightgreen;
+}
+
+.error {
+  background: lightpink;
+}
