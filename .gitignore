@@ -38,3 +38,6 @@ jspm_packages
 
 # webstorm
 .idea
+
+babel_cache
+bundle.js
