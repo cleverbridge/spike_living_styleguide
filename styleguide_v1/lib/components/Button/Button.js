@@ -4,17 +4,18 @@ import CSS from '../../hoc/Css';
 import styles from './button.css';
 
 const propTypes = {
-  type: PropTypes.oneOf(['small', 'normal', 'large'])
+  type: PropTypes.oneOf(['primary', 'secondary', 'minor']),
+  label: PropTypes.string,
 };
 
 const defaultProps = {
-  type: 'normal'
+  type: 'primary'
 };
 
-const Button = ({ type }) => {
+const Button = ({ type, label }) => {
   return (
     <button styleName={`button ${type}`}>
-      Test
+      {label}
     </button>
   )
 };
