@@ -6,10 +6,11 @@ import defaultStyles from './dataList.css';
 
 const propTypes = {
   data: PropTypes.array,
+  buttonPrefix: PropTypes.string,
   styles: PropTypes.object,
 };
 
-const DataList = ({ data, styles }) => {
+const DataList = ({ data, buttonPrefix, styles }) => {
   if(!data) {
     return (
       <div styleName="no-data">No Data Available</div>
@@ -20,7 +21,7 @@ const DataList = ({ data, styles }) => {
     <div styleName="data-list">
       {data.map((d, i) => {
         const CSSListItem = CSS(ListItem, defaultStyles);
-        return (<CSSListItem key={i} data={d} styles={styles} />)
+        return (<CSSListItem key={i} data={d} styles={styles} buttonPrefix={buttonPrefix} />)
       })}
     </div>
   )

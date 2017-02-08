@@ -4,19 +4,25 @@ import Button from '../../Button';
 
 const propTypes = {
   data: PropTypes.node,
+  buttonPrefix: PropTypes.string,
   styles: PropTypes.object,
 };
 
-const ListItem = ({ data, styles }) => {
+const defaultProps = {
+  buttonPrefix: 'Link to',
+};
+
+const ListItem = ({ data, buttonPrefix, styles }) => {
   return (
     <div styleName="list-item">
       <span styleName="content">{ data }</span>
       <div styleName="button">
-        <Button label={`Link to ${data}`} type="secondary" styles={styles} />
+        <Button label={`${buttonPrefix} ${data}`} type="secondary" styles={styles} />
       </div>
     </div>
   )
 };
 
+ListItem.defaultProps = defaultProps;
 ListItem.propTypes = propTypes;
 export default ListItem;
