@@ -1,0 +1,11 @@
+:root {
+  /* colors */
+  --brand-color: #3498db;
+
+  /* fonts */
+  --default-font: "Arial", sans-serif;
+  --default-font-bold: "Arial Bold", sans-serif;
+
+  /* border */
+  --default-border-radius: 5px;
+}
