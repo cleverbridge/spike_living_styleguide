@@ -15,7 +15,7 @@ const data = ['Basic', 'Standard', 'Premium'];
 const App = ({ theme }) => (
   <div className={theme.wrapper}>
     <div className={theme.header}>
-      <img src={logo} />
+      <img role="presentation" src={logo} />
       <h2>Welcome to Netflix</h2>
     </div>
     <p>This is a demo netflix style app to showcase the themeable component library.</p>
@@ -27,4 +27,5 @@ const App = ({ theme }) => (
   </div>
 );
 
+App.propTypes = propTypes;
 export default themr('App', appTheme)(App);
