@@ -5,7 +5,7 @@ import './index.css';
 import { ThemeProvider } from 'react-css-themr';
 
 const contextTheme = {
-  CbButton: require('./button.css'),
+  CbButton: require('./themes/button.css'),
 };
 
 ReactDOM.render(

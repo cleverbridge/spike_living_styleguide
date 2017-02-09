@@ -1,0 +1,21 @@
+.data-list {
+  background: #f3f3f3;
+  padding: 10px;
+  border: 1px solid darkgray;
+}
+
+.list-item {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-bottom: 1px dashed lightblue;
+  padding: 15px 0;
+}
+
+.content {
+  font-weight: bold;
+}
+
+.secondary {
+  background: lightblue;
+}
