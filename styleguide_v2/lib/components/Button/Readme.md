@@ -1,4 +1,4 @@
-Button Component.
+Button (default)
 ``````
 <div>
     <Button label="Default Button"/>
@@ -7,7 +7,7 @@ Button Component.
 </div>
 ``````
 
-Custom Styles.
+Button (Custom Amazon Theme).
 ``````
 const custom = require('./customStyles.css');
 <div>

@@ -5,8 +5,17 @@ import ListItem from './utils/ListItem';
 import defaultTheme from './dataList.css';
 
 const propTypes = {
+  /**
+   * Each data item will be display in one line
+   */
   data: PropTypes.array,
+  /**
+   * Prefix for the Button  (Prefix ${data})
+   */
   buttonPrefix: PropTypes.string,
+  /**
+   * Theme passed via themr
+   */
   theme: PropTypes.object,
 };
 

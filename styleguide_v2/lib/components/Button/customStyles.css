@@ -1,24 +1,45 @@
 .button {
-  -webkit-appearance: none;
   padding: 5px 10px;
-  background: green;
   margin: 0 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  color: #111;
+  transition: all .3s ease;
+}
+
+.button:focus {
+  outline: none;
 }
 
 .primary {
-  font-size: 20px;
-  color: red;
-  text-transform: uppercase;
-  border: 2px solid orange;
+  background: #f3d078;
+  background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.primary:hover {
+  background: linear-gradient(to bottom,#f5d78e,#eeb933);
 }
 
 .secondary {
-  color: blue;
-  border-top-right-radius: 100px;
+  background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+  box-shadow: 0 1px 0 rgba(255,255,255,.6);
+  border: 1px solid;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+}
+
+.secondary:hover {
+  background: linear-gradient(to bottom,#e7eaf0,#d9dce1);
 }
 
 .minor {
-  background: lightblue;
-  font-size: 10px;
+  font-size: 12px;
   border: 0;
+  text-transform: none;
+}
+
+
+.minor:hover {
+  background: #e7e9ec;
 }
