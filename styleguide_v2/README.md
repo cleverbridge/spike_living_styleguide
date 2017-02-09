@@ -29,6 +29,19 @@ Button.propTypes = propTypes;
 export default themr('CbButton', defaultTheme)(Button);
 `````
 
+To theme a specific button different, you just pass the theme prop to the component.
+``````
+import Button from './Button';
+import netflixTheme from './netflixButton.css';
+
+export default (props) => (
+  <div {...props}>
+    <p>NeNeNeNetflix?</p>
+    <Button theme={netflixTheme}>Call me maybe!</Button>
+  </div>
+);
+``````
+
 ###Context Theming
 Wrap your app with the `themr` theme provider and pass a global theme to style all components with one file.
 
