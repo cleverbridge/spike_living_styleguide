@@ -7,6 +7,7 @@
   border-radius: 0;
   padding: 10px 20px;
   background: #e50914;
+  font-weight: bold;
 }
 
 .primary:hover {
@@ -20,4 +21,6 @@
 
 .secondary:hover {
   border-radius: 20px;
+  color: #fff;
+  background: #e50914;
 }
