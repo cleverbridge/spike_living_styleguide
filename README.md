@@ -17,6 +17,8 @@ collected info about a living styleguide
     - maintenance of personal data
     - maintenance of payment data
     - list view of invoices
+- Ownership
+    - how to handle this with the new systems
     
 # possible solutions
 - Client facing
@@ -53,3 +55,16 @@ collected info about a living styleguide
     - if breaking changes are necessary it has to be communicated through all teams in time
     - regulary only minor updates will be delivered
 
+# Tooling
+- Fabricator
+    - summary of website sounds intersting
+    - last development one year ago
+    - no detailed information or example on how to use it in real szenarios
+- Source JS
+    - living styleguide for different web technologies
+- React Styleguidist
+    - nearly zero configuration setup
+    - dev hot-relaoding components (js / css)
+    - same tech stack as frontend (build with react)
+    - easy customizable
+    - live edit in browser 
