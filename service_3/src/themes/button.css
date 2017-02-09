@@ -1,3 +1,23 @@
+.button {
+  margin: 0;
+  transition: all .3s ease;
+}
+
 .primary {
-  background: #50cb52;
+  border-radius: 0;
+  padding: 10px 20px;
+  background: #e50914;
+}
+
+.primary:hover {
+  transform: rotate(-5deg) scale(1.2);
+}
+
+.secondary {
+  border-color: #e50914;
+  color: #e50914;
+}
+
+.secondary:hover {
+  border-radius: 20px;
 }

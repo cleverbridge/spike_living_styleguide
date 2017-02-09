@@ -1,0 +1,14 @@
+.wrapper {
+  margin: 10% auto;
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.call-to {
+  margin-top: 20px;
+}
