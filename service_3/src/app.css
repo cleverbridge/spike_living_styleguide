@@ -1,6 +1,6 @@
 .wrapper {
   margin: 10% auto;
-  max-width: 500px;
+  max-width: 650px;
   background: #fff;
   padding: 20px;
 }
@@ -9,6 +9,8 @@
   text-align: center;
 }
 
-.call-to {
-  margin-top: 20px;
+.plans {
+  margin: 40px 0 20px;
+  display: flex;
+  justify-content: space-between;
 }

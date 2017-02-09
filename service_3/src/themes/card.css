@@ -1,0 +1,22 @@
+.card {
+  width: 33.333%;
+}
+
+.name {
+  color: #e50914;
+}
+
+.highlighted {
+  transform: scale(1.1);
+}
+
+.highlighted .name {
+  color: #fff;
+  background: #e50914;
+}
+
+.highlighted .primary {
+  color: #fff;
+  font-weight: bold;
+  background: #e50914;
+}

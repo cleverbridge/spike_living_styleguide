@@ -7,6 +7,7 @@ import { ThemeProvider } from 'react-css-themr';
 const contextTheme = {
   CbButton: require('./themes/button.css'),
   CbDataList: require('./themes/dataList.css'),
+  CbCard: require('./themes/card.css'),
 };
 
 ReactDOM.render(

@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
 :root {
   /* colors */
   --brand-color: #3498db;
 
   /* fonts */
-  --default-font: "Arial", sans-serif;
-  --default-font-bold: "Arial Bold", sans-serif;
+  --default-font: "Roboto", sans-serif;
 
   /* border */
   --default-border-radius: 5px;
