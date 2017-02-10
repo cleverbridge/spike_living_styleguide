@@ -58,13 +58,24 @@ collected info about a living styleguide
 # Tooling
 - Fabricator
     - summary of website sounds intersting
-    - last development one year ago
+    - last deployment one year ago
     - no detailed information or example on how to use it in real szenarios
 - Source JS
-    - living styleguide for different web technologies
+    - The most advanced tool for documenting, testing and managing UI components achieving productive team work
+    - live editing in browser 
+    - documentation of components
+    - after 2h we gave up to get it running
+- React Toolbox
+    - uses react-themr packages for easy theming possibility 
+    - based on material UI components library
+    - at the moment a lot in development / beta 
+    - no actual stable version at the moment available
+    - after x hours we gave up to get it running
+    - maybe interesting in future when next stable version is released
 - React Styleguidist
     - nearly zero configuration setup
-    - dev hot-relaoding components (js / css)
-    - same tech stack as frontend (build with react)
+    - develop hot-relaoding components (js / css)
+    - same technology stack as frontend (build with react)
     - easy customizable
-    - live edit in browser 
+    - live editing in browser 
+    - documentation of components
