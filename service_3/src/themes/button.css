@@ -3,6 +3,12 @@
   transition: all .3s ease;
 }
 
+.secondary {
+  color: #e50915;
+  border-color: #e50915;
+  padding: 5px 8px;
+}
+
 .primary {
   border-radius: 0;
   padding: 10px 20px;
