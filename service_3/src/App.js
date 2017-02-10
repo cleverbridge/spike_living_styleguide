@@ -47,6 +47,9 @@ const App = ({ theme }) => (
       <Card data={standardData} highlighted />
       <Card data={premiumData} />
     </div>
+
+    <br />
+    You can also grab some DVD's over here: <Button type="secondary" label="DVD Service"/>
   </div>
 );
 
