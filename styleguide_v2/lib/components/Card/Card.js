@@ -17,12 +17,11 @@ const defaultProps = {
 const Card = ({ theme, data, highlighted }) => {
   const { name, services, callTo } = data;
   const hlClass = highlighted && 'highlighted';
-  console.log(hlClass);
   return (
     <div className={`${theme.card} ${theme[hlClass]}`}>
       <div className={theme.name}> {name} </div>
       <ul className={theme.list}>
-        {services.map(s => <li className={theme['list-item']}>{s}</li>)}
+        {services.map((s, i) => <li key={i} className={theme['list-item']}>{s}</li>)}
       </ul>
       <div className={theme['call-to-action']}>
         <Button label={callTo.label} theme={theme} />
